@@ -1,7 +1,12 @@
 aid: ventas
-url: https://raw.githubusercontent.com/api-evangelist/ventas/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/ventas/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.ventas.com
+description: >-
+  Ventas is a real estate investment trust focused on healthcare and senior living
+  properties, including senior housing communities, medical office buildings, life
+  science research facilities, and hospitals.
