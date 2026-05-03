@@ -1,0 +1,139 @@
+title: Ventas Vocabulary
+description: >-
+  Domain vocabulary for Ventas, Inc. covering healthcare real estate investment trust
+  operations, property types, investment structures, and operational data concepts.
+created: '2026-05-03'
+modified: '2026-05-03'
+terms:
+  - term: REIT
+    definition: >-
+      Real Estate Investment Trust — a company that owns, operates, or finances
+      income-producing real estate, required by law to distribute at least 90%
+      of taxable income to shareholders as dividends.
+    tags:
+      - Finance
+      - Real Estate
+
+  - term: Senior Housing
+    definition: >-
+      Residential communities designed for older adults, including independent
+      living, assisted living, and memory care facilities. Ventas owns over 850
+      senior housing communities.
+    tags:
+      - Healthcare
+      - Senior Living
+      - Real Estate
+
+  - term: Medical Office Building
+    definition: >-
+      Commercial real estate properties specifically designed to house physician
+      offices, outpatient clinics, and other healthcare services. Also called
+      outpatient medical buildings.
+    tags:
+      - Healthcare
+      - Real Estate
+      - Outpatient
+
+  - term: Life Science Facility
+    definition: >-
+      Purpose-built laboratory and research facilities supporting biotech, pharma,
+      and medical device companies. Ventas invests in research and innovation
+      centers at major academic medical campuses.
+    tags:
+      - Life Science
+      - Research
+      - Real Estate
+
+  - term: Ventas OI
+    definition: >-
+      Ventas Operational Intelligence — Ventas's proprietary data platform that
+      aggregates and analyzes portfolio-wide operational data to drive performance
+      insights across senior housing and healthcare facilities.
+    tags:
+      - Data Platform
+      - Analytics
+      - Operations
+
+  - term: Net Operating Income (NOI)
+    definition: >-
+      A key REIT performance metric calculated as total revenues minus operating
+      expenses (excluding depreciation, amortization, and financing costs).
+      Used to evaluate property-level profitability.
+    tags:
+      - Finance
+      - Metrics
+
+  - term: Funds From Operations (FFO)
+    definition: >-
+      A non-GAAP financial measure widely used in the REIT industry to assess
+      operating performance. Calculated as net income plus depreciation and
+      amortization, minus gains on property sales.
+    tags:
+      - Finance
+      - Metrics
+
+  - term: Normalized FFO
+    definition: >-
+      Funds From Operations adjusted to exclude non-recurring items, providing
+      a comparable measure of recurring operating performance.
+    tags:
+      - Finance
+      - Metrics
+
+  - term: Same-Store Growth
+    definition: >-
+      A performance metric comparing operating results from the same set of
+      properties across reporting periods, excluding acquisitions, dispositions,
+      and developments.
+    tags:
+      - Finance
+      - Metrics
+      - Real Estate
+
+  - term: Cap Rate
+    definition: >-
+      Capitalization Rate — a real estate valuation metric calculated as
+      Net Operating Income divided by property value or purchase price.
+    tags:
+      - Finance
+      - Real Estate
+      - Valuation
+
+  - term: Longevity Economy
+    definition: >-
+      The economic activity associated with aging populations, including senior
+      housing, healthcare services, and related industries. Ventas positions
+      its portfolio to capitalize on longevity economy growth.
+    tags:
+      - Demographics
+      - Healthcare
+      - Economics
+
+  - term: SHOP
+    definition: >-
+      Senior Housing Operating Portfolio — a structure where Ventas owns the
+      real estate and engages operators to manage day-to-day operations, with
+      Ventas receiving a share of operating revenues.
+    tags:
+      - Senior Housing
+      - Operations
+      - Investment Structure
+
+  - term: Triple Net Lease
+    definition: >-
+      A lease structure where the tenant (operator) pays base rent plus property
+      taxes, insurance, and maintenance costs. Provides predictable income for
+      the REIT owner.
+    tags:
+      - Real Estate
+      - Finance
+      - Lease
+
+  - term: Occupancy Rate
+    definition: >-
+      The percentage of available units or beds occupied by paying residents or
+      patients. A key operating metric for senior housing and healthcare facilities.
+    tags:
+      - Operations
+      - Metrics
+      - Senior Housing

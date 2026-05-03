@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "ventas": "https://www.ventasreit.com/vocab/",
+    "reit": "https://www.reit.com/vocab/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "RealEstateInvestmentTrust": "ventas:RealEstateInvestmentTrust",
+    "HealthcareProperty": "ventas:HealthcareProperty",
+    "SeniorHousingCommunity": "ventas:SeniorHousingCommunity",
+    "MedicalOfficeBuilding": "ventas:MedicalOfficeBuilding",
+    "LifeScienceFacility": "ventas:LifeScienceFacility",
+    "HealthSystem": "ventas:HealthSystem",
+    "PortfolioCompany": "schema:Corporation",
+
+    "propertyId": "schema:identifier",
+    "propertyName": "schema:name",
+    "propertyType": "ventas:propertyType",
+    "address": "schema:address",
+    "country": "schema:addressCountry",
+    "state": "schema:addressRegion",
+
+    "occupancyRate": "ventas:occupancyRate",
+    "unitCount": "ventas:unitCount",
+    "squareFootage": "ventas:squareFootage",
+    "operator": "ventas:managedBy",
+    "leaseType": "ventas:leaseType",
+    "capRate": "ventas:capitalizationRate",
+
+    "netOperatingIncome": "ventas:netOperatingIncome",
+    "fundsFromOperations": "ventas:fundsFromOperations",
+    "normalizedFFO": "ventas:normalizedFFO",
+    "sameStoreGrowth": "ventas:sameStoreGrowth",
+    "totalRevenue": "schema:revenue",
+
+    "ticker": "schema:tickerSymbol",
+    "exchange": "schema:exchangeName",
+    "marketCap": "schema:numberOfEmployees",
+    "dividendYield": "ventas:dividendYield",
+    "sharesOutstanding": "ventas:sharesOutstanding",
+
+    "reportingPeriod": {
+      "@id": "schema:temporalCoverage",
+      "@type": "xsd:string"
+    },
+    "reportDate": {
+      "@id": "schema:datePublished",
+      "@type": "xsd:date"
+    },
+    "fiscalQuarter": "ventas:fiscalQuarter",
+    "fiscalYear": "ventas:fiscalYear"
+  }
+}

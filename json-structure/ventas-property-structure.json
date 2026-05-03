@@ -1,0 +1,29 @@
+{
+  "title": "Ventas Portfolio Property Structure",
+  "description": "Structural documentation for a Ventas healthcare real estate portfolio property",
+  "type": "object",
+  "fields": [
+    { "name": "propertyId", "type": "string", "description": "Unique portfolio property identifier" },
+    { "name": "propertyName", "type": "string", "description": "Property or community name" },
+    { "name": "propertyType", "type": "string", "description": "Type: Senior Housing, Medical Office Building, Life Science Facility, Health System, Post-Acute Care" },
+    { "name": "leaseType", "type": "string", "description": "Operating structure: SHOP, Triple Net Lease, or Modified Gross Lease" },
+    {
+      "name": "address",
+      "type": "object",
+      "description": "Physical location of the property",
+      "fields": [
+        { "name": "street", "type": "string" },
+        { "name": "city", "type": "string" },
+        { "name": "state", "type": "string" },
+        { "name": "country", "type": "string", "description": "US, CA, or GB" },
+        { "name": "postalCode", "type": "string" }
+      ]
+    },
+    { "name": "operator", "type": "string", "description": "Property management company or operator name" },
+    { "name": "unitCount", "type": "integer", "description": "Number of residential units or beds" },
+    { "name": "squareFootage", "type": "number", "description": "Gross leasable area in sq ft" },
+    { "name": "occupancyRate", "type": "number", "description": "Occupancy rate 0.0-1.0" },
+    { "name": "yearBuilt", "type": "integer", "description": "Year built or opened" },
+    { "name": "capRate", "type": "number", "description": "Capitalization rate" }
+  ]
+}

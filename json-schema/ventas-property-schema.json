@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/ventas/main/json-schema/ventas-property-schema.json",
+  "title": "Ventas Healthcare Property",
+  "description": "Schema for a Ventas portfolio property, including senior housing communities, medical office buildings, life science facilities, and health systems.",
+  "type": "object",
+  "properties": {
+    "propertyId": {
+      "type": "string",
+      "description": "Unique property identifier in the Ventas portfolio"
+    },
+    "propertyName": {
+      "type": "string",
+      "description": "Property or community name"
+    },
+    "propertyType": {
+      "type": "string",
+      "enum": [
+        "Senior Housing",
+        "Medical Office Building",
+        "Life Science Facility",
+        "Health System",
+        "Post-Acute Care",
+        "Research And Innovation Center"
+      ],
+      "description": "Classification of healthcare property type"
+    },
+    "leaseType": {
+      "type": "string",
+      "enum": ["SHOP", "Triple Net Lease", "Modified Gross Lease"],
+      "description": "Lease or operating structure for the property"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "country": {
+          "type": "string",
+          "enum": ["US", "CA", "GB"],
+          "description": "ISO 3166-1 alpha-2 country code"
+        },
+        "postalCode": { "type": "string" }
+      }
+    },
+    "operator": {
+      "type": "string",
+      "description": "Name of the property operator or management company"
+    },
+    "unitCount": {
+      "type": "integer",
+      "description": "Number of residential units or beds"
+    },
+    "squareFootage": {
+      "type": "number",
+      "description": "Gross leasable area in square feet"
+    },
+    "occupancyRate": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Current occupancy rate as a decimal (0.0-1.0)"
+    },
+    "yearBuilt": {
+      "type": "integer",
+      "description": "Year the property was built or opened"
+    },
+    "capRate": {
+      "type": "number",
+      "description": "Capitalization rate at acquisition or current valuation"
+    }
+  },
+  "required": ["propertyId", "propertyName", "propertyType"]
+}
