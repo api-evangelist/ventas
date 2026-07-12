@@ -27,6 +27,8 @@ specificationVersion: '0.19'
 apis: []
 
 common:
+  - type: DomainSecurity
+    url: security/ventas-domain-security.yml
   - type: Website
     url: https://www.ventasreit.com/
   - type: InvestorRelations
