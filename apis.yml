@@ -9,6 +9,17 @@ description: >-
   Ventas does not offer a public developer API; data access is available through
   financial data providers and SEC EDGAR filings.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
