@@ -1,7 +1,9 @@
 ---
 title: Creative Testing at Scale - Ventas AI
 url: https://www.beebyclarkmeyler.com/ventas-ai
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Ventas" press release artificial intelligence'
 position: 2
 source: serpapi-google

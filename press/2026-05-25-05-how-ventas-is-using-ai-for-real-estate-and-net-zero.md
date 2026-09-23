@@ -1,7 +1,9 @@
 ---
 title: How Ventas is using AI for real estate & net zero
 url: https://www.mckinsey.com/industries/real-estate/our-insights/how-ventas-used-machine-learning-and-ai-to-create-a-net-zero-plan
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Ventas" press release artificial intelligence'
 position: 5
 source: serpapi-google
