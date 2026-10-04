@@ -36,7 +36,7 @@ access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ventas.png
 tags:
   - Healthcare
-  - Real-Estate
+  - Real Estate
   - REIT
   - Senior Housing
   - Life Sciences
@@ -48,6 +48,7 @@ tags_raw:
   - Senior Housing
   - Life Science
   - Fortune 500
+  - Real-Estate
 url: >-
   https://raw.githubusercontent.com/api-evangelist/ventas/refs/heads/main/apis.yml
 created: '2026-03-24'
